@@ -1,2 +1,2 @@
 # IntellectSite
-Artificial intelligence &amp; Syber security
+Сайт про искуственный интеллект
