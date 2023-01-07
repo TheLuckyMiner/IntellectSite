@@ -1,0 +1,38 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1220px;
+    padding:0 10px;
+    margin: 0 auto;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.header{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.2) -41.9%, #FFFFFF 260.24%);
+    color: #fff;
+}
+
+/*
+font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
