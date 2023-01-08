@@ -200,6 +200,44 @@ body{
     padding-bottom: 50px;
 }
 
+.facts__slider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.facts__slider-item{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 360px;
+    background: linear-gradient(180deg, RGBA(13,20,34, 1), RGBA(255,255,255,0.1));
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.facts__slider-img{
+    padding-top:30px;
+    padding-bottom:30px;
+    width: 98px;
+}
+
+.facts__slider-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    opacity: 0.7;
+    max-width: 302px;
+    padding-bottom: 30px;
+}
+
+.facts__Slider-text{
+    max-width: 302px;
+    padding-bottom: 30px;
+}
+
+/*TODO: Add the slider */
 
 /*
 font-family: 'Inter', sans-serif;
