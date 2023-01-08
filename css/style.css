@@ -12,15 +12,10 @@ a{
     text-decoration: none;
 }
 
-.container{
-    max-width: 1220px;
-    padding:0 10px;
-    margin: 0 auto;
-    background-color: rgb(8, 8, 57);
-}
+
 
 body{
-    background-color: #000;
+    background-color: #020a18;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
@@ -29,9 +24,20 @@ body{
     margin: 0;
 }
 
+.container{
+    max-width: 1220px;
+    padding:0 10px;
+    margin: 0 auto;
+    /*background-color: rgb(8, 8, 57);*/
+}
+
 .header{
-    margin-top: 21px;
     height: 100px;
+    
+}
+
+.header .container{
+    background-color: #1a212e;
 }
 
 .header__inner{
@@ -77,13 +83,11 @@ body{
     margin-bottom: 24px;
 }
 
-.start{
-    padding-top: 50px;
-}
 
 .start .container{
     display: flex;
     flex-wrap: wrap;
+    background-color: #181f2c;
 }
 
 .start__inner{
@@ -94,6 +98,7 @@ body{
 .start__image{
     max-width: 300px;
     padding-top: 50px;
+    padding-bottom: 90px;
 }
 
 .start-img{
@@ -135,19 +140,65 @@ body{
     display: inline-block;
     position: relative;
     text-align:center;
-    padding: 15px 30px 15px 66px;
+    padding: 13px 30px 13px 66px;
 }
 
 .start-btn-img::before{
+    /*TODO: Исправить высоту кнопки*/
     content: "";
     position: absolute;
     width: 20px;
-    height: 25px;
+    height: 23px;
     background-image: url(../images/play.svg);
-    top: 15px;
+    top: 13px;
     left: 30px;
 }
-    
+
+.logos .container{
+    background-image: linear-gradient(180deg,#181f2c,#020a18)
+    /*background-color: #181f2c;*/
+}
+
+.logos__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:50px;
+}
+
+.apply{
+    background-color:#020a18;
+}
+
+.apply__inner{
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 170px;
+}
+
+.apply__photo{
+    max-width: 50%;
+}
+
+.apply-img{
+    max-width: 600px;
+}
+
+.apply__info{
+    padding-top: 110px;
+    padding-left: 50px;
+}
+
+.apply__info-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    padding-bottom: 30px;
+}
+
+.apply__info-text{
+    padding-bottom: 50px;
+}
 
 
 /*
