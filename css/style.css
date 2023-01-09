@@ -216,7 +216,7 @@ body{
     border-radius: 10px;
     text-align: center;
     justify-content: center;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .facts__slider-img{
@@ -294,6 +294,150 @@ body{
 .clients__info-text{
     opacity: 0.7;
     max-width: 460px;
+}
+
+.footer{
+    background: linear-gradient(180deg,#060e1c,#09111f);
+}
+
+.footer__inner{
+    padding-top:77px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo-img{
+    padding-bottom: 8px;
+}
+
+.footer__logo-title{
+    font-weight: 600;
+    line-height: 22px;
+    color:#3A68B8;
+    padding-bottom: 10px;
+}
+
+.footer__logo-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.6;
+    max-width:265px;
+}
+
+.footer__logo__info-text{
+    list-style-type: none;
+}
+
+.footer__logo__info{
+   padding-left: 0;
+   margin-top: 37px;
+}
+
+.footer__info-img{
+    padding-right: 9px;
+    text-align: center;
+}
+
+.footer__logo__info-text{
+    display:flex;
+}
+
+.footer__logo-href{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+}
+
+.footer__logo__info-text + .footer__logo__info-text{
+    padding-top: 20px;
+}
+
+.footer-item-title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 32px;
+}
+
+.footer-link{
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Inter', sans-serif;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.footer-item{
+    list-style-type: none;
+    padding-left: 30px;
+    margin-top: 19px;
+}
+
+.footer-item-text + .footer-item-text{
+    padding-top: 20px;
+}
+
+.footer__title{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 32px;
+    padding-top:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+.footer__text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 18px;
+    opacity: 0.6;
+    max-width:265px;
+    margin-top: 0;
+    padding-bottom: 29px;
+}
+
+.footer__info-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 24px;
+}
+
+.footer__links{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    padding-bottom: 51px;
+    margin: 0;
+}
+
+.footer__links-li + .footer__links-li{
+    padding-left:29px;
+}
+
+.footer__lang{
+    display:flex;
+    cursor: pointer;
+}
+
+.footer__lang-img{
+    padding-right: 8px;
+}
+
+.footer__lang-name{
+    padding-right: 9px;
+    margin:0;
 }
 
 
