@@ -276,6 +276,26 @@ body{
     opacity: 1;
 }
 
+.clients__inner{
+    margin-top: 170px;
+    display: flex;
+    padding-bottom: 170px;
+}
+
+.clients__info-title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    max-width: 550px;
+
+}
+
+.clients__info-text{
+    opacity: 0.7;
+    max-width: 460px;
+}
+
 
 /*
 font-family: 'Inter', sans-serif;
