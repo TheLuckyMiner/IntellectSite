@@ -211,7 +211,8 @@ body{
 .facts__slider-item{
     display: flex;
     height: 500px;
-    max-width: 360px;
+    /*max-width: 360px;*/
+    width: calc(100% / 3 - 40px);
     background: linear-gradient(180deg, RGBA(13,20,34, 1), RGBA(255,255,255,0.1));
     border-radius: 10px;
     text-align: center;
@@ -219,9 +220,10 @@ body{
     margin-left: 60px;
 }
 
+
 .facts__slider-img{
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top: 30px;
+    padding-bottom: 30px;    
     width: 98px;
     height: auto;
     text-align: center;
@@ -235,13 +237,13 @@ body{
     line-height: 31px;
     opacity: 0.7;
     max-width: 302px;
-    padding-bottom: 30px;
+    padding:0 30px 30px;
 }
 
 .facts__slider-text{
     display: inline-block;
     max-width: 302px;
-    padding-bottom: 30px;
+    padding: 0 30px 30px;
 }
 
 
