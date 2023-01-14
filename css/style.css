@@ -59,6 +59,16 @@ body{
     margin-left: 40px; 
 }
 
+.header__nav-link{
+    transition: 0.5s;
+}
+
+.header__nav-link:hover{
+    color:#3A68B8;
+    cursor: pointer;
+    
+}
+
 .header__logo{
     margin-top:auto;
     margin-bottom: auto;
@@ -72,11 +82,19 @@ body{
     padding: 15px 30px;
     cursor: pointer;
     color:#FFFFFF;
+    transition: 1s;
 }
 
 .header-btn{
     margin-top: 24px;
     margin-bottom: 24px;
+
+}
+
+.header-btn:hover{
+    color: #3A68B8;
+    background-color: #fff;
+    
 }
 
 .start{
@@ -152,6 +170,12 @@ body{
     left: 30px;
 }
 
+.start-btn:hover,
+.start-btn-img:hover{
+    color: #3A68B8;
+    background-color: #fff;
+    
+}
 
 .logos{
     background-color: #181f2c;
@@ -199,6 +223,14 @@ body{
     padding-bottom: 50px;
 }
 
+.apply__info-btn{
+    transition: 0.5s;
+}
+
+.apply__info-btn:hover{
+    color: #3A68B8;
+    background-color: #fff;
+}
 .facts__slider{
     display: flex;
     flex-wrap: wrap;
@@ -211,9 +243,9 @@ body{
 .facts__slider-item{
     display: flex;
     height: 500px;
-    /*max-width: 360px;*/
-    width: calc(100% / 3 - 40px);
-    background: linear-gradient(180deg, RGBA(13,20,34, 1), RGBA(255,255,255,0.1));
+    max-width: 360px;
+    /*width: calc(100% / 3 - 40px);*/
+        background: linear-gradient(180deg, RGBA(13,20,34, 1), RGBA(255,255,255,0.1));
     border-radius: 10px;
     text-align: center;
     justify-content: center;
