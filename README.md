@@ -4,3 +4,6 @@ Artificial Intelligence - лендинг искусственного интел
 
 Макет по ссылке ниже:
 https://www.figma.com/file/tWjxiEJLfYrVZMV5FtoJlg/Artificial-Intelligence-%2B?node-id=2%3A6
+
+Ссылка на сайт:
+https://theluckyminer.github.io/IntellectSite/
